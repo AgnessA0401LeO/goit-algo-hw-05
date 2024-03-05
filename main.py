@@ -1,4 +1,4 @@
-# ФУНКЦІЯ caching_fibonacci
+# ЗАВДАННЯ 1.ФУНКЦІЯ caching_fibonacci
 def caching_fibonacci():
     #     Створити порожній словник cache
     cache = {}
@@ -16,8 +16,9 @@ def caching_fibonacci():
             return cache[n]
 
     return fibonacci
-# Приклад використання
-fib = caching_fibonacci()
 
+# Отримуємо функцію fibonacci
+fib = caching_fibonacci()
+# Приклад використання
 print(fib(15))
 print(fib(10))
