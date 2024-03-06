@@ -76,7 +76,7 @@ def input_error(func):
         
         # виводить помилку, якщо немає такого контакту       
         except KeyError:                                   
-                   if function_name == "show_phone":
+            if function_name == "show_phone":
                 return f"Контакту не існує. Потрібно додати такий номер телефону.\n"
   
     return inner
